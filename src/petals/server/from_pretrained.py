@@ -61,6 +61,7 @@ def load_pretrained_block(
         token=token,
         cache_dir=cache_dir,
         max_disk_space=max_disk_space,
+        layer_idx,
     )
 
     # dummy load, check that keys match
