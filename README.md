@@ -63,7 +63,7 @@ Petals is a community-run system &mdash; we rely on people sharing their GPUs. Y
 
 ```bash
 conda install pytorch pytorch-cuda=11.7 -c pytorch -c nvidia
-pip install git+https://github.com/gaborkukucska/petals
+pip install git+https://github.com/gaborkukucska/oldpetals
 python -m petals.cli.run_server codellama/CodeLlama-34b-Instruct-hf --initial_peers /ip4/[ip address of backbone server]/tcp/31337/p2p/CorrectKeyHere
 ```
 
@@ -81,7 +81,7 @@ sudo docker run -p 31330:31330 --ipc host --gpus all --volume petals-cache:/cach
 
 ```bash
 brew install python
-python3 -m pip install git+https://github.com/gaborkukucska/petals
+python3 -m pip install git+https://github.com/gaborkukucska/oldpetals
 python3 -m petals.cli.run_server codellama/CodeLlama-34b-Instruct-hf
 ```
 
