@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <p align="center">
     <img src="https://i.imgur.com/7eR7Pan.png" width="400"><br>
     Run large language models at home, BitTorrent-style.<br>
@@ -230,7 +229,3 @@ _arXiv preprint arXiv:2209.01188,_ 2022.
 <p align="center">
     <img src="https://petals.dev/bigscience.png" width="150">
 </p>
-=======
-# oldpetals
-old petals
->>>>>>> 1ac75e7e8c6d914a47552ff5988d053b5a4316a8
